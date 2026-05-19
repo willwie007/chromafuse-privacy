@@ -1,8 +1,8 @@
 # Privacy Policy for Chromafuse
 
-**Effective date:** April 17, 2026
+**Effective date:** May 19, 2026
 
-This Privacy Policy explains how **Chromafuse** (“**Chromafuse**”, the “**App**”, “**we**”, “**us**”, or “**our**”) collects, uses, stores, and shares information when you use the App.
+This Privacy Policy explains how **Chromafuse** (“**Chromafuse**”, the “**App**”, “**we**”, “**us**”, or “**our**”) collects, uses, stores, and shares information when you use the App on Android, iOS, iPadOS, or any other supported platform.
 
 Chromafuse is published by:
 
@@ -13,7 +13,7 @@ By downloading, accessing, or using Chromafuse, you acknowledge that your inform
 
 ## 1. Scope
 
-This Privacy Policy applies to Chromafuse, including related gameplay systems, in-app purchases, advertisements, leaderboards, achievements, customer support, and related services we make available through the App.
+This Privacy Policy applies to Chromafuse, including related gameplay systems, in-app purchases, advertisements, leaderboards, achievements, customer support, analytics, diagnostics, and related services we make available through the App.
 
 This Privacy Policy does not apply to third-party services that we do not own or control, even if they are accessible through the App. Those third parties operate under their own privacy policies and terms.
 
@@ -24,6 +24,7 @@ Depending on how you use Chromafuse, the platform you use, and which features ar
 ### A. Device and technical information
 
 We may collect technical information such as:
+
 - device model
 - operating system and version
 - language
@@ -38,18 +39,20 @@ We may collect technical information such as:
 ### B. Advertising-related information
 
 If the App displays ads, advertising and mediation partners may collect information such as:
-- advertising identifiers, including the Android Advertising ID where available
+
+- advertising identifiers, including the Android Advertising ID and, where permitted, Apple’s Identifier for Advertisers (IDFA)
 - device identifiers
 - approximate location derived from IP address
 - ad request and ad response data
 - ad impressions
 - ad clicks
-- reward completion events
+- rewarded ad completion events
 - fraud-prevention and measurement signals
 
 ### C. Gameplay and usage information
 
 We may collect gameplay and usage information such as:
+
 - session length
 - levels played or completed
 - scores
@@ -58,20 +61,24 @@ We may collect gameplay and usage information such as:
 - feature interactions
 - settings selections
 - tutorial progress
+- app launches, taps, clicks, and other product interaction data
 - general gameplay analytics and balancing data
 
 ### D. Purchase information
 
 If you make an in-app purchase, we may receive limited transaction-related information such as:
+
 - whether a purchase succeeded
 - the item or entitlement purchased
-- order or verification status needed to grant content, restore purchases, prevent fraud, or respond to support requests
+- purchase status
+- order, receipt, or verification status needed to grant content, restore purchases, prevent fraud, or respond to support requests
 
-We do not receive your full payment card details. Payments are processed by the platform payment provider, such as Google Play.
+We do not receive your full payment card details, bank account information, or full payment credentials. Payments are processed by the relevant platform payment provider, such as Google Play or Apple App Store.
 
-### E. Google Play Games Services information
+### E. Platform game services information
 
-If you choose to use Google Play Games Services features, we may receive or access limited account-related information made available through those services, such as:
+If you choose to use platform game services, such as Google Play Games Services or Apple Game Center, we may receive or access limited account-related or gameplay-related information made available through those services, such as:
+
 - player ID
 - profile name
 - achievements
@@ -81,6 +88,7 @@ If you choose to use Google Play Games Services features, we may receive or acce
 ### F. Support and communications
 
 If you contact us directly, we may collect:
+
 - your email address
 - the contents of your message
 - attachments or screenshots you send us
@@ -89,29 +97,33 @@ If you contact us directly, we may collect:
 ## 3. How We Collect Information
 
 We collect information in several ways:
+
 - directly from you, for example when you play the game, sign in to supported features, make a purchase, claim a reward, or contact us
 - automatically, through the App, your device, the operating system, and SDKs or service providers integrated into the App
-- from platform providers and partners, such as Google Play, Google Play Games Services, and advertising or mediation partners
+- from platform providers and partners, such as Google Play, Apple App Store, Google Play Games Services, Apple Game Center, and advertising or mediation partners
 
 ## 4. How We Use Information
 
 We use information for the following purposes:
+
 - to provide, operate, maintain, and improve Chromafuse
 - to support gameplay systems, progression, rewards, achievements, and leaderboards
 - to authenticate and support platform services such as sign-in and game services
 - to process, verify, restore, and protect in-app purchases
 - to serve ads, limit ad abuse, and measure ad performance
+- to personalize ads where permitted by law and platform rules
 - to understand app performance, usage trends, bugs, crashes, and technical issues
 - to improve gameplay balance, progression, retention, and product quality
 - to detect, prevent, and respond to fraud, abuse, cheating, unauthorized activity, and security incidents
 - to comply with legal obligations
 - to enforce our terms, protect our rights, and defend against claims
 
-## 5. Advertising and Consent
+## 5. Advertising, Tracking, and Consent
 
-Chromafuse may display advertisements through third-party advertising and mediation partners, including **LevelPlay / ironSource** and integrated ad networks.
+Chromafuse may display advertisements through third-party advertising and mediation partners, including **LevelPlay / ironSource**, **Unity Ads**, **Google AdMob**, and other integrated ad networks, depending on the build, platform, region, and services enabled.
 
 These partners may process information such as device identifiers, advertising IDs, IP-based approximate location, ad interaction data, and technical signals in order to:
+
 - deliver ads
 - limit invalid traffic and fraud
 - cap frequency
@@ -121,11 +133,17 @@ These partners may process information such as device identifiers, advertising I
 
 Where required by applicable law, we seek consent before enabling certain personalized advertising or measurement activities. If you decline consent, ads may still be shown, but they may be less relevant or based on limited contextual information instead of personalization.
 
+On iOS and iPadOS, Chromafuse may request permission to track your activity across apps and websites owned by other companies using Apple’s App Tracking Transparency framework. If you deny permission, advertising may still be shown, but it may be less personalized.
+
 Depending on your location and device, you may also be able to limit or reset advertising identifiers through your device settings.
+
+- On Android, you can reset or limit use of your advertising ID through your Google or device privacy settings.
+- On iOS and iPadOS, you can control tracking permission in **Settings > Privacy & Security > Tracking**.
 
 ## 6. Analytics, Diagnostics, and Fraud Prevention
 
-We may use analytics, diagnostics, and anti-fraud tools to:
+We may use analytics, diagnostics, crash reporting, and anti-fraud tools, including **Firebase Analytics** and **Firebase Crashlytics**, to:
+
 - understand how Chromafuse is used
 - improve stability and performance
 - identify bugs and crashes
@@ -134,25 +152,29 @@ We may use analytics, diagnostics, and anti-fraud tools to:
 - detect suspicious or abusive behavior
 - support internal balancing and product decisions
 
-Where possible, we use aggregated, pseudonymous, or minimally necessary data.
+Analytics and diagnostics may include app usage events, crash reports, device information, app version, operating system version, performance information, and other technical data. Where possible, we use aggregated, pseudonymous, or minimally necessary data.
 
-## 7. Google Play Games Services
+## 7. Platform Game Services
 
-If you sign in to or use Google Play Games Services, Google may provide certain account or gameplay-related data necessary to support features such as:
+Chromafuse may support platform game services such as Google Play Games Services on Android and Apple Game Center on iOS and iPadOS.
+
+If you sign in to or use these services, the relevant platform provider may process account-related and game-related information necessary to support features such as:
+
 - sign-in
 - achievements
 - leaderboards
 - profile-related game services
 
-Your use of Google Play Games Services is also subject to Google’s own privacy policies and account settings.
+Your use of these services is also subject to the privacy policies, terms, and account settings of Google, Apple, or the relevant platform provider.
 
 ## 8. In-App Purchases
 
 Chromafuse may offer digital items or features through in-app purchases.
 
-For Android builds distributed through Google Play:
-- purchases are processed by Google Play’s billing system
+For builds distributed through Google Play, purchases are processed by Google Play Billing. For builds distributed through the Apple App Store, purchases are processed by Apple In-App Purchase.
+
 - we receive only limited transaction-related data needed to verify purchases, grant entitlements, restore purchases, prevent fraud, and provide support
+- we do not receive your full payment card number, bank account information, or full payment credentials
 
 ## 9. How We Share Information
 
@@ -161,32 +183,42 @@ We may share information in the following circumstances.
 ### A. Service providers and SDK partners
 
 We may share information with vendors, service providers, and SDK partners that help us operate the App, including:
+
 - advertising and mediation providers
 - analytics and diagnostics providers
 - platform and authentication providers
 - cloud or technical infrastructure providers
 - customer support providers, where used
+- fraud prevention and security providers
 
 ### B. Platform providers
 
 We may share information with platform providers such as:
+
 - Google Play
+- Apple App Store
 - Google Play Games Services
+- Apple Game Center
 - payment processors or billing systems operated by the platform
 
-### C. Legal and security reasons
+### C. Advertising and mediation partners
+
+We may share information with advertising and mediation partners for ad delivery, ad measurement, fraud prevention, frequency capping, monetization reporting, and, where permitted, ad personalization.
+
+### D. Legal and security reasons
 
 We may disclose information if required to do so by law or when we reasonably believe disclosure is necessary to:
+
 - comply with legal obligations or lawful requests
 - enforce our agreements
 - investigate fraud, abuse, or security issues
 - protect the rights, safety, and security of users, us, or others
 
-### D. Business transfers
+### E. Business transfers
 
 We may disclose or transfer information in connection with a merger, acquisition, investment, reorganization, financing, due diligence process, bankruptcy, or sale of all or part of our assets.
 
-### E. With your direction
+### F. With your direction
 
 We may share information when you direct us to do so or when you choose to interact with third-party features.
 
@@ -195,6 +227,7 @@ We do not sell personal information in the ordinary meaning of the word “sell.
 ## 10. Data Retention
 
 We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy, including to:
+
 - provide and improve the App
 - complete transactions
 - maintain game integrity and fraud-prevention systems
@@ -202,7 +235,7 @@ We retain information only for as long as reasonably necessary for the purposes 
 - resolve disputes
 - enforce agreements
 
-Retention periods may vary depending on the type of data, the purpose for which it was collected, and legal requirements.
+Retention periods may vary depending on the type of data, the purpose for which it was collected, and legal requirements. Third-party service providers may retain information according to their own privacy policies and retention practices.
 
 ## 11. International Data Transfers
 
@@ -219,6 +252,7 @@ We do not knowingly collect personal information from children in violation of a
 ## 13. Your Choices and Rights
 
 Depending on your location, you may have rights regarding your personal information, such as the right to request:
+
 - access
 - correction
 - deletion
@@ -227,9 +261,12 @@ Depending on your location, you may have rights regarding your personal informat
 - data portability, where applicable
 
 You may also be able to:
-- reset or limit use of your advertising ID through device settings
+
+- reset or limit use of your advertising ID through Android device settings
+- control app tracking permission through iOS or iPadOS settings
 - control app permissions through your device settings
 - review relevant Google Play Games privacy settings through your Google account or Play Games settings
+- review relevant Apple Game Center privacy settings through your Apple account or device settings
 - stop using the App and uninstall it
 
 To submit a privacy request, contact us at:
@@ -248,12 +285,20 @@ No method of transmission over the internet or method of electronic storage is c
 
 Chromafuse may integrate with or link to third-party services, SDKs, websites, or policies. We are not responsible for the privacy, security, or data-handling practices of third parties. You should review the privacy policies of those third parties separately.
 
-These may include, depending on the build and services enabled:
+These may include, depending on the build, platform, region, and services enabled:
+
+- Firebase Analytics
+- Firebase Crashlytics
 - LevelPlay / ironSource and mediated ad networks
+- Unity Ads
+- Google AdMob
 - Google Play
 - Google Play Games Services
 - Google Play Billing
-- other platform or measurement providers
+- Apple App Store
+- Apple Game Center
+- Apple In-App Purchase
+- other advertising, analytics, diagnostics, mediation, platform, infrastructure, or measurement providers
 
 ## 16. Changes to This Privacy Policy
 
